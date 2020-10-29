@@ -14,6 +14,5 @@
 
 void mainNKTables();
 void fillRandomly(int quantityK,  int *PointerofLengths, float **PointerMatrix);
-void printTables(int quantityK, int *PointerofLenghts, float **PointerMatrix);
 
 #endif /* NK_Tables_hpp */
