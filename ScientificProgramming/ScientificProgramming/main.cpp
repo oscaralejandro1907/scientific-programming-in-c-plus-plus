@@ -39,6 +39,14 @@ int main(int argc, const char * argv[]) {
     //mainPointerTable();
     //mainNKTables();
     
+    struct employee {
+        char first_name[16];
+        int age;
+    };
+    
+    employee *p_emp = new employee;
+    
+    strcpy(p_emp->first_name, "zara");
     
     
     
