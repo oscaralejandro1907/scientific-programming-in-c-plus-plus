@@ -38,7 +38,6 @@ void mainNKTables(){
     }
     
     fillRandomly(k, rand_length, pointer);
-    printTables(k, rand_length, pointer);
     
     
     for (int i=0; i<k; i++) {
