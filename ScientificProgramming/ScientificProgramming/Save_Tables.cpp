@@ -73,5 +73,3 @@ struct table_characteristics* Generate (int N, int K){  //Because it will take d
     return &t;
     
 }
-
-void Save (
