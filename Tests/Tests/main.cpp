@@ -7,29 +7,14 @@
 
 
 #include "Header.h"
-#include "Info.hpp"
+#include "Instance.hpp"
 
-int sum(int arr[]){
-    
-    int len = sizeof(arr);
-    int sum=0;
-    
-    for (int i=0; i<len; i++) {
-        sum+=arr[i];
-        cout<<i;
-        
-    }
-    return sum;
-   
-}
 
 int main(int argc, const char * argv[]) {
+        
+    Instance i1;
     
-    int numbers[] = {1,2,3,4};
-    
-    cout<<sum(numbers)<<endl;
-    
-    
+    cout<<i1.sum()<<endl;
     return 0;
 }
 
