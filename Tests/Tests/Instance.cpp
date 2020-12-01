@@ -7,38 +7,41 @@
 
 #include "Instance.hpp"
 
+
+Node::Node(double x, double y){
+    _xpos=x;
+    _ypos=y;
+}
+
+double Node::distTo(Node *D){
+    return sqrt(pow(this->getXPos() - D->getXPos(),2) + pow(this->getYPos() - D->getYPos(), 2));
+    //The use of "this" is for giving value of _xpos and _ypos the constructor already has initializated, and later substract to the Node *D x and y that will be passed as a parameter.
+}
+
 Instance::Instance(){
     
-    vector<int> v;
+    double x1=50.0, y1=25.0;
+    double x2=20.0, y2=15.0;
     
-    v.push_back(1);
-    v.push_back(2);
-    v.push_back(3);
-    v.push_back(4);
+    _ListNodes = new Node*[2];
     
-    _myvec=v;
-    
-    _a=1.3;
-    _b=5.4;
-    _c=1.2;
+    _ListNodes[1]=new Node(x1,y1);
+    _ListNodes[2]=new Node(x2,y2);
 }
 
-int Instance::sum(){
-    int varsum=0;
-    
-    for (auto i:_myvec){
-        varsum+=i;
-    }
-    
-    //cout<<"The sum of the vector is: "<<varsum<<endl;
-    return varsum;
+double Instance::calcDistance(Node *O, Node *D){
+    return O->distTo(D);
 }
 
-float Instance::formula(){
+Functions::Functions(){
+    _elem = {2,3,4,4,1,3};
+}
+
+void Functions::interchange(vector<int> v,int arg1, int arg2){
     
-    float x;
-    x=(_b*_b-4*_a*_c)/2*_a;
-    
-    cout<<"The value of the calculated formula is: "<<x<<endl;
-    return x;
+    v[0]=arg1;
+    v[1]=arg2;
+
+    swap(arg1, arg2);
+    cout<<"Elements interchanged: "<<arg1<<" "<<arg2<<endl;
 }
