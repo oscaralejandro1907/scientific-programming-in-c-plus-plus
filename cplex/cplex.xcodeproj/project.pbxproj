@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41C6BF902570017400AAD320 /* Transport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41C6BF8E2570017400AAD320 /* Transport.cpp */; };
+		41C6BF9525700C2600AAD320 /* Cplex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41C6BF9325700C2600AAD320 /* Cplex.cpp */; };
 		41D4FC9B252F6A04004A3D19 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41D4FC9A252F6A04004A3D19 /* main.cpp */; };
 		41D4FCA4252F6A14004A3D19 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D4FCA3252F6A14004A3D19 /* CoreFoundation.framework */; };
 		41D4FCA6252F6A1D004A3D19 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D4FCA5252F6A1D004A3D19 /* IOKit.framework */; };
@@ -29,6 +31,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		41C6BF872570003400AAD320 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		41C6BF8E2570017400AAD320 /* Transport.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Transport.cpp; sourceTree = "<group>"; };
+		41C6BF8F2570017400AAD320 /* Transport.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Transport.hpp; sourceTree = "<group>"; };
+		41C6BF9325700C2600AAD320 /* Cplex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cplex.cpp; sourceTree = "<group>"; };
+		41C6BF9425700C2600AAD320 /* Cplex.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cplex.hpp; sourceTree = "<group>"; };
 		41D4FC97252F6A04004A3D19 /* cplex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cplex; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D4FC9A252F6A04004A3D19 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		41D4FCA3252F6A14004A3D19 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -76,7 +83,12 @@
 		41D4FC99252F6A04004A3D19 /* cplex */ = {
 			isa = PBXGroup;
 			children = (
+				41C6BF872570003400AAD320 /* Header.h */,
 				41D4FC9A252F6A04004A3D19 /* main.cpp */,
+				41C6BF8F2570017400AAD320 /* Transport.hpp */,
+				41C6BF8E2570017400AAD320 /* Transport.cpp */,
+				41C6BF9425700C2600AAD320 /* Cplex.hpp */,
+				41C6BF9325700C2600AAD320 /* Cplex.cpp */,
 			);
 			path = cplex;
 			sourceTree = "<group>";
@@ -151,6 +163,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D4FC9B252F6A04004A3D19 /* main.cpp in Sources */,
+				41C6BF9525700C2600AAD320 /* Cplex.cpp in Sources */,
+				41C6BF902570017400AAD320 /* Transport.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
