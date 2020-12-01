@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41757AE425601E1A0005C99E /* Pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41757AE225601E1A0005C99E /* Pointers.cpp */; };
 		41A4B31F25583E6C00E9ED5A /* Instance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41A4B31D25583E6C00E9ED5A /* Instance.cpp */; };
+		41B88E58256AA1410019129C /* HR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41B88E56256AA1410019129C /* HR.cpp */; };
+		41B88E5C256AA2110019129C /* Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41B88E5A256AA2110019129C /* Strings.cpp */; };
 		41DEB29A25522440000C48C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41DEB29925522440000C48C3 /* main.cpp */; };
+		41E03FF5256EB67200A0A8F9 /* Vectors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E03FF3256EB67200A0A8F9 /* Vectors.cpp */; };
+		41E03FF9256EC02D00A0A8F9 /* Polymorphism.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E03FF7256EC02D00A0A8F9 /* Polymorphism.cpp */; };
+		41F7B344256A0216008A1BA8 /* Enum_Typedef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41F7B342256A0216008A1BA8 /* Enum_Typedef.cpp */; };
+		41F7B349256A0928008A1BA8 /* Maths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41F7B347256A0928008A1BA8 /* Maths.cpp */; };
+		41F7B34D256A09A4008A1BA8 /* Finances.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41F7B34B256A09A4008A1BA8 /* Finances.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,11 +32,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		41757AE225601E1A0005C99E /* Pointers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pointers.cpp; sourceTree = "<group>"; };
+		41757AE325601E1A0005C99E /* Pointers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pointers.hpp; sourceTree = "<group>"; };
 		41A4B31D25583E6C00E9ED5A /* Instance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Instance.cpp; sourceTree = "<group>"; };
 		41A4B31E25583E6C00E9ED5A /* Instance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Instance.hpp; sourceTree = "<group>"; };
-		41DEB29625522440000C48C3 /* Tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tests; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B88E54256A9B450019129C /* Tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tests; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B88E56256AA1410019129C /* HR.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HR.cpp; sourceTree = "<group>"; };
+		41B88E57256AA1410019129C /* HR.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HR.hpp; sourceTree = "<group>"; };
+		41B88E5A256AA2110019129C /* Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Strings.cpp; sourceTree = "<group>"; };
+		41B88E5B256AA2110019129C /* Strings.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Strings.hpp; sourceTree = "<group>"; };
 		41DEB29925522440000C48C3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		41DEB2A125522467000C48C3 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		41E03FF3256EB67200A0A8F9 /* Vectors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vectors.cpp; sourceTree = "<group>"; };
+		41E03FF4256EB67200A0A8F9 /* Vectors.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vectors.hpp; sourceTree = "<group>"; };
+		41E03FF7256EC02D00A0A8F9 /* Polymorphism.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Polymorphism.cpp; sourceTree = "<group>"; };
+		41E03FF8256EC02D00A0A8F9 /* Polymorphism.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Polymorphism.hpp; sourceTree = "<group>"; };
+		41F7B342256A0216008A1BA8 /* Enum_Typedef.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Enum_Typedef.cpp; sourceTree = "<group>"; };
+		41F7B343256A0216008A1BA8 /* Enum_Typedef.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Enum_Typedef.hpp; sourceTree = "<group>"; };
+		41F7B347256A0928008A1BA8 /* Maths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Maths.cpp; sourceTree = "<group>"; };
+		41F7B348256A0928008A1BA8 /* Maths.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Maths.hpp; sourceTree = "<group>"; };
+		41F7B34B256A09A4008A1BA8 /* Finances.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Finances.cpp; sourceTree = "<group>"; };
+		41F7B34C256A09A4008A1BA8 /* Finances.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Finances.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,23 +70,31 @@
 			isa = PBXGroup;
 			children = (
 				41DEB29825522440000C48C3 /* Tests */,
-				41DEB29725522440000C48C3 /* Products */,
+				41B88E54256A9B450019129C /* Tests */,
 			);
-			sourceTree = "<group>";
-		};
-		41DEB29725522440000C48C3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				41DEB29625522440000C48C3 /* Tests */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		41DEB29825522440000C48C3 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				41A4B31D25583E6C00E9ED5A /* Instance.cpp */,
+				41F7B343256A0216008A1BA8 /* Enum_Typedef.hpp */,
+				41F7B342256A0216008A1BA8 /* Enum_Typedef.cpp */,
+				41F7B34C256A09A4008A1BA8 /* Finances.hpp */,
+				41F7B34B256A09A4008A1BA8 /* Finances.cpp */,
+				41B88E57256AA1410019129C /* HR.hpp */,
+				41B88E56256AA1410019129C /* HR.cpp */,
 				41A4B31E25583E6C00E9ED5A /* Instance.hpp */,
+				41A4B31D25583E6C00E9ED5A /* Instance.cpp */,
+				41F7B348256A0928008A1BA8 /* Maths.hpp */,
+				41F7B347256A0928008A1BA8 /* Maths.cpp */,
+				41757AE325601E1A0005C99E /* Pointers.hpp */,
+				41757AE225601E1A0005C99E /* Pointers.cpp */,
+				41E03FF8256EC02D00A0A8F9 /* Polymorphism.hpp */,
+				41E03FF7256EC02D00A0A8F9 /* Polymorphism.cpp */,
+				41B88E5B256AA2110019129C /* Strings.hpp */,
+				41B88E5A256AA2110019129C /* Strings.cpp */,
+				41E03FF4256EB67200A0A8F9 /* Vectors.hpp */,
+				41E03FF3256EB67200A0A8F9 /* Vectors.cpp */,
 				41DEB2A125522467000C48C3 /* Header.h */,
 				41DEB29925522440000C48C3 /* main.cpp */,
 			);
@@ -86,7 +118,7 @@
 			);
 			name = Tests;
 			productName = Tests;
-			productReference = 41DEB29625522440000C48C3 /* Tests */;
+			productReference = 41B88E54256A9B450019129C /* Tests */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +143,7 @@
 				Base,
 			);
 			mainGroup = 41DEB28D25522440000C48C3;
-			productRefGroup = 41DEB29725522440000C48C3 /* Products */;
+			productRefGroup = 41DEB28D25522440000C48C3;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -125,8 +157,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41E03FF9256EC02D00A0A8F9 /* Polymorphism.cpp in Sources */,
+				41F7B34D256A09A4008A1BA8 /* Finances.cpp in Sources */,
+				41E03FF5256EB67200A0A8F9 /* Vectors.cpp in Sources */,
 				41A4B31F25583E6C00E9ED5A /* Instance.cpp in Sources */,
 				41DEB29A25522440000C48C3 /* main.cpp in Sources */,
+				41F7B344256A0216008A1BA8 /* Enum_Typedef.cpp in Sources */,
+				41757AE425601E1A0005C99E /* Pointers.cpp in Sources */,
+				41F7B349256A0928008A1BA8 /* Maths.cpp in Sources */,
+				41B88E5C256AA2110019129C /* Strings.cpp in Sources */,
+				41B88E58256AA1410019129C /* HR.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
