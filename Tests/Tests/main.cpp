@@ -7,14 +7,23 @@
 
 
 #include "Header.h"
+
 #include "Instance.hpp"
+#include "Pointers.hpp"
+#include "Enum_Typedef.hpp"
+#include "Finances.hpp"
+#include "Maths.hpp"
+#include "Polymorphism.hpp"
+#include "Vectors.hpp"
+#include "HR.hpp"
 
 
 int main(int argc, const char * argv[]) {
-        
-    Instance i1;
     
-    cout<<i1.sum()<<endl;
+    int *pointer = new int[4];
+    
+    int A[3];
+
     return 0;
 }
 
