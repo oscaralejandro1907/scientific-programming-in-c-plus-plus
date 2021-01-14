@@ -7,13 +7,14 @@
 
 #include "Maths.hpp"
 
-Maths::Maths(){
-    _base=3.9;
-    _height=2.4;
-    
-    _a=9.2;
-    _b=1.9;
-    _c=7.1;
+Rectangle::Rectangle(){
+    _length=10;
+    _width=5;
+}
+
+Rectangle::Rectangle(Rectangle &arect){
+    _length=arect._length;
+    _width=arect._width;
 }
 
 float Maths::formula(){

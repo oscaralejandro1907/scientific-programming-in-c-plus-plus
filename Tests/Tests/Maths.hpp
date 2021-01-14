@@ -12,6 +12,16 @@
 #include "Header.h"
 #include "Instance.hpp"
 
+class Rectangle {
+private:
+    int _length;
+    int _width;
+    
+public:
+    Rectangle();
+    Rectangle(Rectangle &arect); //Copy constructor by reference
+};
+
 class Maths {
 private:
     
@@ -19,6 +29,8 @@ private:
     float _height;
     
     float _a,_b,_c;
+    
+    //Rectangle **_Rectangles;
     
 public:
     Maths();
@@ -40,8 +52,6 @@ public:
     void isPrimeNumber(int n);
     
     void generateRandomNumber();
-    
-    
     
 };
 

@@ -18,23 +18,19 @@ class Node {
 public:
     Node(double x, double y);
     
-    double getXPos(){return _xpos;}
-    double getYPos(){return _ypos;}
-    
     double distTo(Node *D);
 };
 
 class Instance {
     
     string _name;
-    
-    Node **_ListNodes; //Tiene q ser doble puntero porque Node tiene varios campos y voy a tener además lista de ellos.
+    Node **ListofNodes;
     
 public:
     Instance();
     
-    Node *getListofNodes(int nodeid){return _ListNodes[nodeid];}
-    double calcDistance(Node *O, Node *D);
+    Node *getNode(int nodeid){return ListofNodes[nodeid];}
+    double calculateDistance(Node *O, Node *D);
     
 };
 

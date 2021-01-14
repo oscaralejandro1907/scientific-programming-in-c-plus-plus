@@ -1,0 +1,4 @@
+nProducts: 2
+Id	Nombre	Cantidad	CostoUnidad	Precio	Peso
+0	Jabon	4	56	100	0.6
+1	Pasta	2	16	100	0.18		

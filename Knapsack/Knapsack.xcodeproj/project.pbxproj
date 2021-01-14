@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41C1B4B12581912700C635AA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41C1B4B02581912700C635AA /* main.cpp */; };
+		41C1B4BA2581914A00C635AA /* Knapsack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41C1B4B82581914A00C635AA /* Knapsack.cpp */; };
+		41CFFB1725A4195E0065D1A7 /* source.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41CFFB1525A4195E0065D1A7 /* source.cpp */; };
+		41DBAD4B25A269A1006A1C56 /* CplexModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41DBAD4925A269A1006A1C56 /* CplexModel.cpp */; };
+		41DBAD4F25A26A96006A1C56 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DBAD4E25A26A96006A1C56 /* CoreFoundation.framework */; };
+		41DBAD5125A26ABB006A1C56 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DBAD5025A26ABB006A1C56 /* IOKit.framework */; };
+		41DBAD5325A26AFC006A1C56 /* libconcert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DBAD5225A26AFC006A1C56 /* libconcert.a */; };
+		41DBAD5725A26B3F006A1C56 /* libcplexdistmip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DBAD5425A26B3F006A1C56 /* libcplexdistmip.a */; };
+		41DBAD5825A26B3F006A1C56 /* libilocplex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DBAD5525A26B3F006A1C56 /* libilocplex.a */; };
+		41DBAD5925A26B3F006A1C56 /* libcplex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DBAD5625A26B3F006A1C56 /* libcplex.a */; };
+		41DBAD5D25A273B4006A1C56 /* Algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41DBAD5B25A273B4006A1C56 /* Algorithm.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		41C1B4AB2581912700C635AA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		41C1B4AD2581912700C635AA /* Knapsack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Knapsack; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C1B4B02581912700C635AA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		41C1B4B82581914A00C635AA /* Knapsack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Knapsack.cpp; sourceTree = "<group>"; };
+		41C1B4B92581914A00C635AA /* Knapsack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Knapsack.hpp; sourceTree = "<group>"; };
+		41C1B4BC2581915C00C635AA /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		41CFFB1525A4195E0065D1A7 /* source.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = source.cpp; sourceTree = "<group>"; };
+		41CFFB1625A4195E0065D1A7 /* source.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = source.hpp; sourceTree = "<group>"; };
+		41DBAD4925A269A1006A1C56 /* CplexModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CplexModel.cpp; sourceTree = "<group>"; };
+		41DBAD4A25A269A1006A1C56 /* CplexModel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CplexModel.hpp; sourceTree = "<group>"; };
+		41DBAD4E25A26A96006A1C56 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		41DBAD5025A26ABB006A1C56 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		41DBAD5225A26AFC006A1C56 /* libconcert.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconcert.a; path = "../../../../../../Applications/CPLEX_Studio1210/concert/lib/x86-64_osx/static_pic/libconcert.a"; sourceTree = "<group>"; };
+		41DBAD5425A26B3F006A1C56 /* libcplexdistmip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcplexdistmip.a; path = "../../../../../../Applications/CPLEX_Studio1210/cplex/lib/x86-64_osx/static_pic/libcplexdistmip.a"; sourceTree = "<group>"; };
+		41DBAD5525A26B3F006A1C56 /* libilocplex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libilocplex.a; path = "../../../../../../Applications/CPLEX_Studio1210/cplex/lib/x86-64_osx/static_pic/libilocplex.a"; sourceTree = "<group>"; };
+		41DBAD5625A26B3F006A1C56 /* libcplex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcplex.a; path = "../../../../../../Applications/CPLEX_Studio1210/cplex/lib/x86-64_osx/static_pic/libcplex.a"; sourceTree = "<group>"; };
+		41DBAD5B25A273B4006A1C56 /* Algorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Algorithm.cpp; sourceTree = "<group>"; };
+		41DBAD5C25A273B4006A1C56 /* Algorithm.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Algorithm.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41C1B4AA2581912700C635AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41DBAD5725A26B3F006A1C56 /* libcplexdistmip.a in Frameworks */,
+				41DBAD5825A26B3F006A1C56 /* libilocplex.a in Frameworks */,
+				41DBAD5925A26B3F006A1C56 /* libcplex.a in Frameworks */,
+				41DBAD5325A26AFC006A1C56 /* libconcert.a in Frameworks */,
+				41DBAD5125A26ABB006A1C56 /* IOKit.framework in Frameworks */,
+				41DBAD4F25A26A96006A1C56 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41C1B4A42581912700C635AA = {
+			isa = PBXGroup;
+			children = (
+				41DBAD5B25A273B4006A1C56 /* Algorithm.cpp */,
+				41DBAD5C25A273B4006A1C56 /* Algorithm.hpp */,
+				41DBAD4925A269A1006A1C56 /* CplexModel.cpp */,
+				41CFFB1525A4195E0065D1A7 /* source.cpp */,
+				41CFFB1625A4195E0065D1A7 /* source.hpp */,
+				41DBAD4A25A269A1006A1C56 /* CplexModel.hpp */,
+				41C1B4AF2581912700C635AA /* Knapsack */,
+				41C1B4AE2581912700C635AA /* Products */,
+				41DBAD4D25A26A96006A1C56 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		41C1B4AE2581912700C635AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41C1B4AD2581912700C635AA /* Knapsack */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41C1B4AF2581912700C635AA /* Knapsack */ = {
+			isa = PBXGroup;
+			children = (
+				41C1B4B82581914A00C635AA /* Knapsack.cpp */,
+				41C1B4B92581914A00C635AA /* Knapsack.hpp */,
+				41C1B4BC2581915C00C635AA /* Header.h */,
+				41C1B4B02581912700C635AA /* main.cpp */,
+			);
+			path = Knapsack;
+			sourceTree = "<group>";
+		};
+		41DBAD4D25A26A96006A1C56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41DBAD5625A26B3F006A1C56 /* libcplex.a */,
+				41DBAD5425A26B3F006A1C56 /* libcplexdistmip.a */,
+				41DBAD5525A26B3F006A1C56 /* libilocplex.a */,
+				41DBAD5225A26AFC006A1C56 /* libconcert.a */,
+				41DBAD5025A26ABB006A1C56 /* IOKit.framework */,
+				41DBAD4E25A26A96006A1C56 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41C1B4AC2581912700C635AA /* Knapsack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C1B4B42581912700C635AA /* Build configuration list for PBXNativeTarget "Knapsack" */;
+			buildPhases = (
+				41C1B4A92581912700C635AA /* Sources */,
+				41C1B4AA2581912700C635AA /* Frameworks */,
+				41C1B4AB2581912700C635AA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Knapsack;
+			productName = Knapsack;
+			productReference = 41C1B4AD2581912700C635AA /* Knapsack */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41C1B4A52581912700C635AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					41C1B4AC2581912700C635AA = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 41C1B4A82581912700C635AA /* Build configuration list for PBXProject "Knapsack" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41C1B4A42581912700C635AA;
+			productRefGroup = 41C1B4AE2581912700C635AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41C1B4AC2581912700C635AA /* Knapsack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41C1B4A92581912700C635AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41CFFB1725A4195E0065D1A7 /* source.cpp in Sources */,
+				41DBAD4B25A269A1006A1C56 /* CplexModel.cpp in Sources */,
+				41DBAD5D25A273B4006A1C56 /* Algorithm.cpp in Sources */,
+				41C1B4B12581912700C635AA /* main.cpp in Sources */,
+				41C1B4BA2581914A00C635AA /* Knapsack.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		41C1B4B22581912700C635AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		41C1B4B32581912700C635AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		41C1B4B52581912700C635AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/Applications/CPLEX_Studio1210/concert/include,
+					/Applications/CPLEX_Studio1210/cplex/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Applications/CPLEX_Studio1210/concert/lib/x86-64_osx/static_pic\"",
+					"\"/Applications/CPLEX_Studio1210/cplex/lib/x86-64_osx/static_pic\"",
+				);
+				OTHER_CFLAGS = "-DIL_STD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41C1B4B62581912700C635AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/Applications/CPLEX_Studio1210/concert/include,
+					/Applications/CPLEX_Studio1210/cplex/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Applications/CPLEX_Studio1210/concert/lib/x86-64_osx/static_pic\"",
+					"\"/Applications/CPLEX_Studio1210/cplex/lib/x86-64_osx/static_pic\"",
+				);
+				OTHER_CFLAGS = "-DIL_STD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41C1B4A82581912700C635AA /* Build configuration list for PBXProject "Knapsack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C1B4B22581912700C635AA /* Debug */,
+				41C1B4B32581912700C635AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41C1B4B42581912700C635AA /* Build configuration list for PBXNativeTarget "Knapsack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C1B4B52581912700C635AA /* Debug */,
+				41C1B4B62581912700C635AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41C1B4A52581912700C635AA /* Project object */;
+}

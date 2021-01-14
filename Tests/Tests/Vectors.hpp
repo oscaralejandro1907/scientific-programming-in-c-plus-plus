@@ -32,6 +32,7 @@ public:
     int getGreaterValue(vector<int> vec);
     int getMinValue(vector<int> vec);
     int searchIndex(vector<int> vec, int key);
+    void checkElement();
     
     void average();
 };

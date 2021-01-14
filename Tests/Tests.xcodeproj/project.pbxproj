@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		41757AE425601E1A0005C99E /* Pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41757AE225601E1A0005C99E /* Pointers.cpp */; };
 		41A4B31F25583E6C00E9ED5A /* Instance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41A4B31D25583E6C00E9ED5A /* Instance.cpp */; };
+		41B197C325770DB2003B48D4 /* Containers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41B197C125770DB2003B48D4 /* Containers.cpp */; };
 		41B88E58256AA1410019129C /* HR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41B88E56256AA1410019129C /* HR.cpp */; };
 		41B88E5C256AA2110019129C /* Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41B88E5A256AA2110019129C /* Strings.cpp */; };
 		41DEB29A25522440000C48C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41DEB29925522440000C48C3 /* main.cpp */; };
@@ -36,7 +37,9 @@
 		41757AE325601E1A0005C99E /* Pointers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pointers.hpp; sourceTree = "<group>"; };
 		41A4B31D25583E6C00E9ED5A /* Instance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Instance.cpp; sourceTree = "<group>"; };
 		41A4B31E25583E6C00E9ED5A /* Instance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Instance.hpp; sourceTree = "<group>"; };
-		41B88E54256A9B450019129C /* Tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tests; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B197C125770DB2003B48D4 /* Containers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Containers.cpp; sourceTree = "<group>"; };
+		41B197C225770DB2003B48D4 /* Containers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Containers.hpp; sourceTree = "<group>"; };
+		41B88E54256A9B450019129C /* Tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Tests; path = "/Users/oscarhernandezlopez/Documents/GitHub/scientific-programming-in-c-plus-plus/Tests/build/Debug/Tests"; sourceTree = "<absolute>"; };
 		41B88E56256AA1410019129C /* HR.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HR.cpp; sourceTree = "<group>"; };
 		41B88E57256AA1410019129C /* HR.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HR.hpp; sourceTree = "<group>"; };
 		41B88E5A256AA2110019129C /* Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Strings.cpp; sourceTree = "<group>"; };
@@ -70,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				41DEB29825522440000C48C3 /* Tests */,
-				41B88E54256A9B450019129C /* Tests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +99,8 @@
 				41E03FF3256EB67200A0A8F9 /* Vectors.cpp */,
 				41DEB2A125522467000C48C3 /* Header.h */,
 				41DEB29925522440000C48C3 /* main.cpp */,
+				41B197C125770DB2003B48D4 /* Containers.cpp */,
+				41B197C225770DB2003B48D4 /* Containers.hpp */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -167,6 +171,7 @@
 				41F7B349256A0928008A1BA8 /* Maths.cpp in Sources */,
 				41B88E5C256AA2110019129C /* Strings.cpp in Sources */,
 				41B88E58256AA1410019129C /* HR.cpp in Sources */,
+				41B197C325770DB2003B48D4 /* Containers.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

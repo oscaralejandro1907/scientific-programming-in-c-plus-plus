@@ -120,7 +120,20 @@ void Vectors::average(){
     double mean = (double)sum/vec.size();
     
     cout<<"Mean is: "<<mean<<endl;
+}
 
+void Vectors::checkElement(){
+  
+    vector<int> v = { 4, 7, 5, 2, 6, 9 };
+    int key = 6;
+    
+    if (count(v.begin(), v.end(), key)) {
+        cout << "Element found";
+    }
+    else{
+        cout << "Element not found";
+    }
+     
 }
 
 

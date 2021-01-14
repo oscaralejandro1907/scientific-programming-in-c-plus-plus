@@ -15,6 +15,8 @@
 #include <iterator>
 #include <math.h>
 #include <set>
+#include <cstring>
+#include <map>
 
 using namespace std;
 
